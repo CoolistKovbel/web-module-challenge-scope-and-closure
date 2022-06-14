@@ -82,8 +82,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+- The closure is inside the function on line 68. It used the variable created inside the nested function to return new roll number
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+- The name is always going to stay the same and the number that is rolled is what will be changed.
 c. What is the lexical scope of `newRoll`? 
+- its inside the first scope, can only be used within the function and not outside the function itself.
 
 
 ### Task 3 - Stretch Goals
